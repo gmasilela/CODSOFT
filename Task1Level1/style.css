@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+    background: #9ce1c3;
+}
+
+/* header */
+nav {
+    background: url(images/pexels.jpg);
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header_h1 {
+    font-size: 100px;
+    color: #0b623c;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: #1cdc89;
+}
+ /* row */
+.column {
+    float: left;
+    margin-top: 100px;
+    padding: 50px;
+}
+.column.side {
+    padding-top: 100px;
+    width: 50%;
+}
+.column.middle {
+    width: 40%;
+  border: rgb(215, 143, 9) solid;
+  border-radius: 10%;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+span {
+    font-weight: bold ;
+}
+.span_2 {
+    font-weight: bold ;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h2 {
+    font-size: 5rem;
+}
+i {
+    color: rgb(81, 74, 74);
+}
+/* p {
+    
+} */
+.saflag {
+    height: 15rem;
+    width: 20rem;
+    margin-left: 100px;
+    padding: 20px;
+}
+.saflag:hover {
+    transition: 0.4s;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.anthem_h2 {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.anthem {
+    margin-left: 100px;
+}
+.anthem:hover {
+    transition: 0.4s;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+/* content */
+
+.provs {
+    margin: 100px;
+    margin-top: -30px;
+    border: 1px solid transparent;
+    list-style-type: none;
+    text-align: center;
+}
+.provs_h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.provs_images {
+    height: 15rem;
+    width: 15rem;
+    padding-top: 1rem;
+}
+.provs_images:hover {
+    transition: 0.4s;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.p {
+    text-align: justify;
+    padding: 80px;
+    flex-wrap: wrap;
+}
+/* footer */
+.footer {
+    background-color: #0b623c;
+    height: 10rem;
+}
+.footer_p {
+    padding: 60px;
+    margin-left: 20rem;
+}

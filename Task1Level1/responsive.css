@@ -1,0 +1,198 @@
+@media screen and (max-width: 1024px) {
+    .saflag {
+        height: 13rem;
+        width: 18rem;
+        margin-left: -10px;
+        padding: 20px;
+    }
+    .saflag:hover {
+        transition: 0.4s;
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .header_h1 {
+        font-size: 80px;
+    }
+    a {
+        font-size: 18px;
+    }
+    .anthem_h2 {
+        margin-left: 50px;
+    }
+    .anthem {
+        margin-left: 50px;
+    }
+    .anthem:hover {
+        transition: 0.4s;
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .footer_p {
+        margin-left: 8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .saflag {
+        height: 10rem;
+        width: 15rem;
+        margin-left: -20px;
+        padding: 20px;
+    }
+    .header_h1 {
+        font-size: 60px;
+    }
+    a {
+        font-size: 15px;
+    }
+    .anthem_h2 {
+        margin-top: 50px;
+        font-size: 70px;
+        margin-left: 10px;
+    }
+    .anthem {
+        height: 30rem;
+        width: 20rem;
+        margin-left: 0rem;
+    }
+    .anthem:hover {
+        transition: 0.4s;
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    .anthem_h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    nav {
+        height: 8rem;
+        width: 35rem;
+    }
+    .header_h1 {
+        font-size: 40px;
+    }
+    nav ul li {
+        padding: 5px 10px;
+    }
+    a {
+        font-size: 15px;
+    }
+    .column {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100, 1fr));
+        grid-gap: 0px;
+        margin-top: 50px;
+    }
+    .column.side {
+        padding-top: 0px;
+        width: 35rem;
+    } 
+    .column.middle {
+        width: 35rem;
+        border: none;
+        margin-top: -5rem;
+    }
+    .saflag {
+        height: 15rem;
+        width: 20rem;
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .anthem {
+        height: 25rem;
+        width: 20rem;
+        margin-left: 0rem;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .provs {
+        margin: 10px;
+    }
+    .provs_h2 {
+        margin-top: 0rem;
+        margin-left: 3rem;
+    }
+    .provs_images {
+
+        height: 12rem;
+        width: 20rem;
+        padding-top: 1rem;
+        margin-left: 7rem;
+       
+    }
+    .provs_images:hover {
+        transition: 0.4s;
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+    .p {
+        text-align: justify;
+        padding: 50px;
+        width: 33rem;
+        flex-wrap: wrap;
+    }
+    .span_2 {
+        margin-left: 8rem;
+    }
+    .footer {
+        height: 11rem;
+        width: 35rem;
+    }
+    .footer_p {
+        margin-left: 0rem;
+        font-size: 14px;
+        font-size: 10px;
+        width: 15rem;
+        margin-left: 10rem;
+    }
+    
+}
+
+@media screen and (max-width: 376px) {
+    nav {
+        width: 36rem;
+    }
+    .p {
+        text-align: justify;
+        padding: 50px;
+        width: 35rem;
+        flex-wrap: wrap;
+    }
+    .footer {
+        width: 36rem;
+        height: 13rem;
+    }
+    .footer_p {
+        font-size: 12px;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .span_2 {
+        font-size: 25px;
+    }
+    .provs_images {
+
+        height: 10rem;
+        width: 18rem;
+       
+    }
+    p {
+        font-size: 20px;
+    }
+    .footer_p {
+        font-size: 10px;
+        width: 15rem;
+        margin-left: 10rem;
+    }
+    
+}
