@@ -1,0 +1,130 @@
+/* media query */
+@media screen and (max-width: 1025px) {
+    .hero {
+        height: 200vh;
+        width: 64rem;
+      }
+    .column-h1 {
+        font-size: 28px;
+    }
+    .column-h2 {
+        width: 15rem;
+        font-size: 27px;
+    }
+    .skills {
+        padding-left: 20px;
+    }
+    .images, .images img {
+        border: none;
+    }
+}
+@media screen and (max-width: 769px) {
+    .hero {
+        height: 200vh;
+        width: 54rem;
+      }
+    .column.side {
+        width: 100%;
+    }
+    .column.middle {
+        width: 65%;
+    }
+    .column-h2 {
+        margin: 0;
+    }
+    .logo {
+        font-size: 25px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .images, .images img {
+        border: none;
+        right: 10%;
+    }
+  }
+  @media screen and (max-width: 426px) {
+    .hero {
+        width: 37rem;
+        height: 255vh;
+      }
+    nav {
+        display: grid;
+        height: 12rem;
+    }
+    .logo {
+        padding-left: 75px;
+        font-size: 30px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    button {
+        padding: 15px 10px 15px 10px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .row {
+        padding-top: 18rem;
+    }
+    p {
+        font-size: 20px;
+    }
+    p:hover {
+        font-size: 20px;
+    }
+    .column-h1 h2:hover {
+        transform: none;
+    }
+    .column.middle {
+        width: 35rem;
+    }
+    .column-h1, .column-h2 {
+        font-size: 31px;
+    }
+    .lang-header {
+        font-size: 25px;
+    }
+    .lang-list {
+        font-size: 20px;
+    }
+    .lang-list:hover {
+        color: white;  
+    }
+    .images .me, .images .bubbles {
+        height: 0px;
+    }
+    .images  {
+        right: 35%;
+    }
+    .images .face {
+        height: 15rem;
+        width: 15rem;
+        top: 18%;
+        border-radius: 55% 45% 55% 45%;
+        overflow: hidden;
+        animation: imgFloat 7s ease-in-out infinite;
+
+    }
+    .images img{
+        height: 15rem;
+        width: 15rem;
+        object-fit: cover;
+    }
+    @keyframes imgFloat {
+        50%{
+            transform: translateX(10px);
+            border-radius: 45% 55% 45% 55%;
+        }
+    }
+  }
+  
