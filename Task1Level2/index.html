@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/webp" href="/Task1Level2/images/gm icon.png" />
     <title>G.M Masilela</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
@@ -13,16 +14,22 @@
         <h2 class="logo">GM <span>Masilela</span></h2>
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a href="#">About</a></li>
         </ul>
         <button type="button">Hire Me</button>
     </nav>
-    <!--  -->
+    <div class="intro-statement">
+      <h1>Hi! I am Glad Musa Masilela</h1>
+      <h2><span2>Front-End</span2> developer based in <span2>Pretoria</span2></h2>
+      <i>South Africa</i>
+    </div>
+    <!-- small screen image -->
     <div class="images">
       <img src="images/portrait.jpg" class="face">
     </div>
+    <!-- rows and columns -->
     <div class="row">
         <div class="column middle">
             <h2><button  class="column-h1">Software Developer</button></h2>
@@ -59,13 +66,69 @@
             </ul>
            </p>
         </div>
-
+        <!-- big screen images -->
         <div class="images">
             <img src="images/Orange Bubbles.png" class="bubbles">
             <img src="images/Picture.png" class="me">
         </div>
       </div>
+      <!-- projects -->
+      <section id="projects" class="projects"></section>
+
+      <h2><button class="projects-h2">Projects</button></h2>
+      
+      <div class="project1">
+        <a href="https://elaborate-pastelito-d8626d.netlify.app" target="_blank">
+          <img src="images/projects/Landing page.png" class="landingpage" alt="Landing Page">
+      </a>      
+        <p class="projects-p">A static landing page crafted with HTML and CSS serves as an initial point of interaction. 
+          It features a clear headline, compelling call-to-action button, and concise information. The HTML structures content, 
+          while CSS handles styling for an aesthetically pleasing presentation. This approach prioritizes simplicity, 
+          quick loading times, and user engagement without relying on server-side processing.</p>  
+      </div>
+      <div class="project2">
+        <a href="https://curious-syrniki-b78f0a.netlify.app" target="_blank">
+          <img src="images/projects/book connect app.png" class="bookwebapp" alt="Book Connect App">
+        </a>        
+        <p class="projects-p2">The Book Connect Web App is an open-source platform utilizing a third-party API for book enthusiasts. 
+          Users explore a comprehensive database, accessing details and reviews seamlessly. 
+          The app facilitates easy book discovery through intuitive search and categorization features. 
+          User profiles and community interactions enhance the reading experience, fostering a dynamic literary community. 
+          Real-time updates from the API ensure the app's catalog remains comprehensive and up-to-date.</p>  
+      </div>
+      <div class="project3">
+        <a href="https://gmm-world-podweb.netlify.app/" target="_blank">
+          <img src="images/projects/podcast webapp.png" class="podcastapp" alt="Podcast Web App">
+      </a>      
+        <p class="projects-p">Discover a world of curated audio content on our PODCAST web app, designed using React.js. 
+          Using powerful APIs, the app effortlessly brings you a diverse range of engaging podcasts. 
+          Navigate through a user-friendly interface, explore new favorites, and immerse yourself in a seamless listening experience. 
+          Our app is crafted to elevate your podcast enjoyment with its sleek design and interactive features. 
+          Embrace the future of audio entertainment with our React.js-powered PODCAST web app.</p>  
+      </div>
+      <div class="project4">
+        <a href="https://benevolent-mermaid-2c49f3.netlify.app" target="_blank">
+          <img src="images/projects/calculator.png" class="calculator">
+      </a>
+        <p class="projects-p2">A JavaScript-based calculator enables users to perform arithmetic operations seamlessly within a web browser. 
+          Leveraging HTML for structure and CSS for styling, the calculator offers a user-friendly interface with features like addition, subtraction, multiplication, and division. 
+          Users can input values, correct entries with a backspace button, and obtain results instantly by pressing the equal button. 
+          The calculator's dynamic functionality is powered by JavaScript's event handling, creating a responsive and efficient tool for mathematical computations</p>  
+      </div>
+      <section id="contact" class="contact"></section>
+      <div class="contact">
+        <span2>E-mail: </span2><h2><a href="mailto:g.masilela@lab.clicklearning.org">g.masilela@lab.clicklearning.org</a></h2>
+        <br>
+        <span2>LinkedIn: </span2><h2><a href="https://www.linkedin.com/in/glad-musa-masilela-0a7061272" target="_blank">LinkedIn Profile</a></h2>
+        <br>
+        <span2>Phone-Number: </span2><h2>079 801 7016</h2>
+      </div>
+      <!-- footer -->
+      <div class="footer">
+    <p class="footer_p">
+        © 2024 GM Masilela. All rights reserved. | Designed by GM Masilela | Privacy Policy | Terms of Service
+    </p>
    </div>
-   <!--  -->
+</div>
 </body>
 </html>

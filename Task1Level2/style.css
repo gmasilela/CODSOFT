@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Georgia, "Times New Roman", Times, serif;
+  /* background-color: rgb(33, 6, 6); */
 }
 /* Navbar */
 .hero {
@@ -29,6 +30,11 @@ nav {
 }
 span {
   color: rgb(215, 143, 9);
+}
+
+span2 {
+  color: bisque;
+  font-size: 35px;
 }
 
 nav ul li {
@@ -58,6 +64,17 @@ button {
 button:hover {
   transform: scale(1.5);
   cursor: pointer;
+}
+
+.intro-statement{
+  padding-top: 10rem;
+  padding-left: 10rem;
+  backdrop-filter: blur(3px);
+}
+
+i {
+  font-size: 80px;
+  color: bisque;
 }
 /* Content */
 .column {
@@ -125,7 +142,7 @@ p:hover {
     width: 20%;
 }
 .column.middle {
-    width: 40%;
+    width: 35%;
 }
 .row::after {
   content: "";
@@ -138,7 +155,7 @@ p:hover {
   width: 18%;
   height: 80%;
   position: absolute;
-  bottom: 0;
+  top: 95px;
   right: 15%;
   border: black solid;
 }
@@ -160,4 +177,87 @@ p:hover {
 }
 .images .face {
   height: 0px;
+}
+
+/* projects */
+.projects-h2{
+  background-image: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTZ8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHx8fDE3MDQzMjgzMzh8MA&ixlib=rb-4.0.3");
+  background-size: cover;
+  background-position: center;
+  margin: 20px;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.projects-p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 15px;
+  color: white;
+  margin-left: 180px;
+  width: 25%;
+  text-align: justify;
+  font-size: 15px;
+  backdrop-filter: blur(1px);
+}
+
+.projects-p2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 15px;
+  color: white;
+  margin-left: 180px;
+  width: 40%;
+  text-align: justify;
+  font-size: 15px;
+  backdrop-filter: blur(1px);
+}
+
+.projects-p:hover {
+  font-size: 15px;
+}
+
+.projects-p2:hover {
+  font-size: 15px;
+}
+
+.bookwebapp, .landingpage, .podcastapp, .calculator{
+  height: 15rem;
+  padding: 0px;
+  margin: 30px;
+  margin-top: 50px;
+  margin-left: 150PX;
+  border-radius: 50px;
+}
+
+.project2 {
+  margin-left: 35rem;
+  margin-top: -25.4rem;
+
+}
+
+.project4 {
+  margin-left: 35rem;
+  margin-top: -25.4rem;
+}
+.contact {
+  padding-left: 10rem;
+  font-size: 1rem;
+  backdrop-filter: blur(1px);
+  width: 50rem;
+}
+
+/* footer */
+.footer {
+  height: 10rem;
+  backdrop-filter: blur(5px);
+  margin-top: 5rem;
+}
+.footer_p {
+  padding: 60px;
+  margin-left: 20rem;
+  font-size: 15px;
+}
+.footer_p:hover{
+  font-size: 15px;
 }
