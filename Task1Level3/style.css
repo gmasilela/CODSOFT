@@ -16,7 +16,7 @@ a {
 }
 
 body {
-    background-image: linear-gradient(to bottom right, rgba(79,51,176,1),rgba(210,53,165));
+    background-image: linear-gradient(to bottom right, rgb(176, 155, 51),rgb(53, 210, 132));
 }
 .container {
     height: 100vh;

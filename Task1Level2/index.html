@@ -15,16 +15,23 @@
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#projects">Portfolio</a></li>
+            <!-- <li><a href="#about">About</a></li> -->
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#">About</a></li>
         </ul>
-        <button type="button">Hire Me</button>
+        <button type="button" id="hireMeButton">Download CV</button>
+        <script>
+        document.getElementById("hireMeButton").addEventListener("click", function() {
+          window.open("assets/Masilela.pdf", "_blank");
+          });
+          </script>
+
     </nav>
     <div class="intro-statement">
-      <h1>Hi! I am Glad Musa Masilela</h1>
-      <h2><span2>Front-End</span2> developer based in <span2>Pretoria</span2></h2>
-      <i>South Africa</i>
+      <h1 class="intro-h1">Hi! I am Glad Musa Masilela</h1>
+      <h2 class="intro-h2"><span2>Front-End</span2> developer based in <span2>Pretoria</span2></h2>
+      <i class="intro-i">South Africa</i>
     </div>
+    
     <!-- small screen image -->
     <div class="images">
       <img src="images/portrait.jpg" class="face">
@@ -43,26 +50,28 @@
               Take a look at my projects, and you'll see how my love for coding translates into real, impactful results. 
               Let's build something awesome together!
             </p>
+            <p>Explore my journey and passions through my About section. Here, you'll discover the story behind the person – a blend of experiences, skills, and aspirations. 
+              From my professional background to personal interests, this space provides a glimpse into who I am and what drives me. 
+              Join me in navigating the chapters of my life, both personally and professionally, as we connect through shared experiences and common goals. 
+              Welcome to my world, where every detail contributes to the vibrant tapestry of my identity</p>
           </div>
           
         <div class="column side">
           <h2><button  class="column-h2">Area of Expertise</button></h2>
           <p>
             <ul class="skills">
-                <li  class="lang-header">Technical Skills:</li>
+                <li class="lang-header">Technical Skills:</li>
                 <li class="lang-list">HTML/CSS</li>
                 <li class="lang-list">CSS</li>
                 <li class="lang-list"> JavaScript</li>
-                <li  class="lang-header">Soft Skills:</li>
                 <li class="lang-list">React.js</li>
                 <li class="lang-list">React Native</li>
-                <!-- <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li> -->
+                <li class="lang-header">Soft Skills:</li>
+                <li class="lang-list">Determined achiever.</li>
+                <li class="lang-list">Pressure Resilient.</li>
+                <li class="lang-list">Continuous Learning</li>
+                <li class="lang-list">Collaborative Teamworker.</li>
+                <li class="lang-list">Effective Dialogue</li>
             </ul>
            </p>
         </div>
@@ -73,10 +82,10 @@
         </div>
       </div>
       <!-- projects -->
+      <div class="projects">
       <section id="projects" class="projects"></section>
-
       <h2><button class="projects-h2">Projects</button></h2>
-      
+      <i class="project-descr">click on the pictures to see them in a website</i>
       <div class="project1">
         <a href="https://elaborate-pastelito-d8626d.netlify.app" target="_blank">
           <img src="images/projects/Landing page.png" class="landingpage" alt="Landing Page">
@@ -115,13 +124,19 @@
           Users can input values, correct entries with a backspace button, and obtain results instantly by pressing the equal button. 
           The calculator's dynamic functionality is powered by JavaScript's event handling, creating a responsive and efficient tool for mathematical computations</p>  
       </div>
+      </div>
+      
+            <br>
+      <!-- contacts -->
       <section id="contact" class="contact"></section>
       <div class="contact">
-        <span2>E-mail: </span2><h2><a href="mailto:g.masilela@lab.clicklearning.org">g.masilela@lab.clicklearning.org</a></h2>
+        <h2><button  class="contact_h1">Contacts</button></h2>
         <br>
-        <span2>LinkedIn: </span2><h2><a href="https://www.linkedin.com/in/glad-musa-masilela-0a7061272" target="_blank">LinkedIn Profile</a></h2>
+        <span3>E-mail: </span3><h2><a href="mailto:g.masilela@lab.clicklearning.org">g.masilela@lab.clicklearning.org</a></h2>
         <br>
-        <span2>Phone-Number: </span2><h2>079 801 7016</h2>
+        <span3>LinkedIn: </span3><h2><a href="https://www.linkedin.com/in/glad-musa-masilela-0a7061272" target="_blank">LinkedIn Profile</a></h2>
+        <br>
+        <span3>Phone-Number: </span3><h2>079 801 7016</h2>
       </div>
       <!-- footer -->
       <div class="footer">

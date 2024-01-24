@@ -1,9 +1,5 @@
 /* media query */
 @media screen and (max-width: 1025px) {
-    .hero {
-        height: 200vh;
-        width: 64rem;
-      }
     .column-h1 {
         font-size: 28px;
     }
@@ -17,12 +13,37 @@
     .images, .images img {
         border: none;
     }
+    .bookwebapp, .landingpage, .podcastapp, .calculator{
+        height: 10rem;
+        margin-left: 80PX;
+    }
+    .projects {
+        padding-left: 100px;
+    }
+     .projects-p {
+        margin-left: 100px;
+    }
+    .projects-p2 {
+        margin-left: 120px;
+    }
+    .project2, .project4 {
+        margin-left: 25rem;
+        margin-top: -25.4rem;
+        width: 32rem;
+      
+    }
+    .project-descr {
+        padding-left: 2rem;
+    }
+    .intro-h1 {
+        padding-top: 20rem;
+        padding-left: 5rem;
+    }
+    .intro-h2, .intro-i {
+        padding-left: 5rem;
+    }
 }
 @media screen and (max-width: 769px) {
-    .hero {
-        height: 200vh;
-        width: 54rem;
-      }
     .column.side {
         width: 100%;
     }
@@ -48,10 +69,6 @@
     }
   }
   @media screen and (max-width: 426px) {
-    .hero {
-        width: 37rem;
-        height: 255vh;
-      }
     nav {
         display: grid;
         height: 12rem;
